@@ -1,7 +1,7 @@
 ﻿//Программа для нахождения большего и меньшего числа из двух
-int a = 8, b = -3;
-int max = a;
-int min = b;
+int a = 5, b = 7;
+int max = 0;
+int min = 0;
 if (a > b) 
 {
     max = a;
