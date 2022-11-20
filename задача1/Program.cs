@@ -1,13 +1,17 @@
 ﻿//Программа для нахождения большего и меньшего числа из двух
-int a = 2, b = 10;
+int a = 8, b = -3;
 int max = a;
 int min = b;
-if (a > max) max = a;
-if (b > max) max = b;
-
-
-if (a < min) min = a;
-if (b < min) min = b;
+if (a > b) 
+{
+    max = a;
+    min = b;
+}
+else
+{
+    max = b;
+    min = a;
+} 
 
 
 Console.Write("max= ");
