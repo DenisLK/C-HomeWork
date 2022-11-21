@@ -1,12 +1,12 @@
 ﻿//Программа для определения является ли число чётным
-int a = 4;
-
+Console.Write("Введите число: ");
+int a = Console.Read();
 
 if (a % 2 ==0)
 {
-    Console.Write("Да ");
+    Console.Write("Это четное число! ");
 }
 else
 {
-    Console.Write("Нет ");
+    Console.Write("Это не четное число! ");
 }
