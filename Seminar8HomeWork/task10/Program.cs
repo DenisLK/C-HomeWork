@@ -5,19 +5,15 @@
 //918 -> 1
 void twodig(int dig)
 {
-    if (dig > 0)
-    {
-    int des = dig % 100;
-    int des2 = des / 10;
-    Console.WriteLine("huy");
-    }
+    int des = dig / 10;
+    int des2 = des % 10;
+    Console.WriteLine($"Вторая цифра в числе: {des2}");
 }
+//Console.Write("Введите трехзначное число: ");
+//Console.Read();
+twodig(456);
 
 
 
-    
-
-
-int dig = 456;
 
 
