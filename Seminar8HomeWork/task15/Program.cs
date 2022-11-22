@@ -17,5 +17,3 @@ void weekend(int day)
 
 Console.Write("Введите число дня недели: ");
 weekend(Convert.ToInt32(Console.ReadLine()));
-
-// Console.WriteLine("wekeend7");
