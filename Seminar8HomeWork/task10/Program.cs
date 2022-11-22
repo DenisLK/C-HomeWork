@@ -9,9 +9,9 @@ void twodig(int dig)
     int des2 = des % 10;
     Console.WriteLine($"Вторая цифра в числе: {des2}");
 }
-//Console.Write("Введите трехзначное число: ");
+Console.Write("Введите трехзначное число: ");
 //Console.Read();
-twodig(456);
+twodig(Convert.ToInt32(Console.ReadLine()));
 
 
 
