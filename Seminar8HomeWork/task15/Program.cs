@@ -2,22 +2,20 @@
 //6 -> да
 //7 -> да
 //1 -> нет
-bool day(int day)
+void weekend(int day)
 {
-    if(day % 7 == 0 && day % 6 == 0)
+    if(day == 7 || day == 6)
     {
-        return true;
-        
+        Console.WriteLine("Это выходной день");
     }
     else
     {
-        return false;
-        
+        Console.WriteLine("Это рабочий день");
     }
-    
+
 }
 
 Console.Write("Введите число дня недели: ");
-day(Convert.ToInt32(Console.ReadLine()));
+weekend(Convert.ToInt32(Console.ReadLine()));
 
-Console.WriteLine($"{otv}");
+// Console.WriteLine("wekeend7");
