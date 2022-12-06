@@ -38,6 +38,3 @@ int[,]array = new int[4, 4];
 int n = 4;
 FillArray(array, n);
 PrintArray(array);
-
-// Console.WriteLine();
-// PrintArray(array);
