@@ -9,13 +9,13 @@ void Sum(int n, int k)
     {
         result = result + n++;
     }
-    Console.WriteLine(result);
+    Console.WriteLine($"Сумма всех элементов в диапазоне от М до N равна {result}");
 }
 
 
-Console.WriteLine("Введите 1 число: ");
+Console.WriteLine("Введите число M: ");
 int n = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите 2 число: ");
+Console.WriteLine("Введите число N: ");
 int m = Convert.ToInt32(Console.ReadLine());
 int k = m - n;
 Sum(n, k);
